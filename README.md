@@ -3,32 +3,32 @@ Script for create report in .csv with alerts of tool Orion by Cytomic Panda
 
 For use set in terminal:
 
-**1. Cookie**
+   **1. Cookie**
 
-```-c, --cookie```
+   ```-c, --cookie```
 
-[Nessesary] Cookie after login in https://orion.cytomicmodel.com
-   
-**2. Status**
+   [Nessesary] Cookie after login in https://orion.cytomicmodel.com
 
-```-s, --status```
+   **2. Status**
 
-Status 1 = In procces, Status 2 = Closed, all = not set
-   
-**3. Classification**
+   ```-s, --status```
 
-```l, --classification```
+   Status 1 = In procces, Status 2 = Closed, all = not set
 
-Unclassified = 0, Confirmed Attack = 1, Investigation with no attacks detected = 2, Potential Attack = 3, all = not set
-  
-**4. Priority**
+   **3. Classification**
 
-```-p, --priority```
+   ```l, --classification```
 
-Critical = 1, High = 2, Normal = 3, Low = 4, all = not set
+   Unclassified = 0, Confirmed Attack = 1, Investigation with no attacks detected = 2, Potential Attack = 3, all = not set
 
-**5. Assigned**
+   **4. Priority**
 
-```-a, --assigned```
+   ```-p, --priority```
 
-For report to specific user(s) set email(s) in this list, Not Assigned = "none", all = not set
+   Critical = 1, High = 2, Normal = 3, Low = 4, all = not set
+
+   **5. Assigned**
+
+   ```-a, --assigned```
+
+   For report to specific user(s) set email(s) in this list, Not Assigned = "none", all = not set
