@@ -26,7 +26,7 @@ try:
     status = [] if options.status == None else list(map(int,options.status.split(',')))
     classification = [] if options.classification == None else list(map(int,options.classification.split(',')))
     priority = [] if options.priority == None else list(map(int,options.priority.split(',')))
-    assigned = [] if options.assigned == None else list(map(int,options.assigned.split(',')))
+    assigned = [] if options.assigned == None else list(options.assigned.split(','))
 except:
     print('Error in parameters, try like to: -p 1,2,3')
 
